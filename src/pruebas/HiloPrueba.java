@@ -34,7 +34,7 @@ public class HiloPrueba implements Runnable {
                 Thread.sleep(500);
 
             }
-            // Borramos las 6    
+            // Borramos las 6       
             Component[] ventanas = gui.getPanel().getComponents();
             for (int i = 0; i < ventanas.length; i++) {                
                 gui.getPanel().remove(ventanas[i]);                                
