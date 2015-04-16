@@ -31,7 +31,7 @@ public class HiloPrueba implements Runnable {
                 Interna vi = new Interna();
                 gui.getPanel().add(vi);
                 vi.setVisible(true);
-                Thread.sleep(750);
+                Thread.sleep(500);
 
             }
             // Borramos las 6
@@ -39,7 +39,7 @@ public class HiloPrueba implements Runnable {
             for (int i = 0; i < ventanas.length; i++) {                
                 gui.getPanel().remove(ventanas[i]);                                
                 gui.getPanel().repaint();                
-                Thread.sleep(750);                
+                Thread.sleep(500);                
             }
             JOptionPane.showMessageDialog(gui, "Nadie se encuentra conectado en este momento");
         } catch (InterruptedException ex) {
